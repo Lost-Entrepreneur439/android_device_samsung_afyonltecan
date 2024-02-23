@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_afyonltecan.mk
+    $(LOCAL_DIR)/rr_afyonltecan.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_afyonltecan-user \
-    lineage_afyonltecan-userdebug \
-    lineage_afyonltecan-eng
+    rr_afyonltecan-user \
+    rr_afyonltecan-userdebug \
+    rr_afyonltecan-eng
