@@ -16,9 +16,9 @@
 #
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 $(call inherit-product, device/samsung/afyonltecan/full_afyonltecan.mk)
 
 PRODUCT_DEVICE := afyonltecan
-PRODUCT_NAME := lineage_afyonltecan
+PRODUCT_NAME := rr_afyonltecan
