@@ -6,3 +6,6 @@ vendor.rild.libpath=/system/vendor/lib/libsec-ril.so
 ro.telephony.mms_data_profile=5
 ro.ril.telephony.qan_resp_strings=6
 ro.telephony.call_ring.multiple=0
+
+# disable ram intensive things
+ro.config.low_ram=true
